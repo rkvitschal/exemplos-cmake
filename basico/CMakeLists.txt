@@ -8,4 +8,4 @@ project(rk_projeto_exemplo_basico)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
 
 # Adiciona os arquivos CPP do projeto
-add_executable(rk_projeto_exemplo_basico src/main.cpp  src/class1.cpp src/class2.cpp src/etc.cpp )
+add_executable(rk_projeto_exemplo_basico main.cpp  src/class1.cpp src/class2.cpp src/etc.cpp )
