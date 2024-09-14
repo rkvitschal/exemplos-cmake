@@ -8,7 +8,7 @@ project(rk_projeto_exemplo_curl)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
 
 # Adiciona os arquivos CPP do projeto
-add_executable(rk_projeto_exemplo_curl src/main.cpp  src/class1.cpp src/class2.cpp src/etc.cpp )
+add_executable(rk_projeto_exemplo_curl main.cpp)
 
 
 # Caso queria definir por exemplo no Windows o caminho fico ao Curl
